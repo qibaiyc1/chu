@@ -7,13 +7,20 @@
         <style>
             body{
                 background: ghostwhite;
+                text-align:center
             }
-            .box{
-                width: 500px;
+            .container {
+                display: flex;
+                justify-content: center; /* 水平居中 */
+                align-items: center;    /* 垂直居中 */
+                height: 200px;          /* 父容器需要高度 */
+                border: 1px solid #ccc;
+            }
+            .center-box{
+                width: 400px;
                 height:200px;
                 background: cornflowerblue;
-                margin: 0;
-                border-radius:20px;
+                border-radius:20px;<!--设置圆角-->
                 text-align:center;<!--设置文字到中间 -->
             }
         </style>
@@ -23,20 +30,27 @@
         <h1 style="color:cornflowerblue">小初的的网页</h1>
         <i>个人学习的产物<br></i>
 
-        <img src="https://lcmimage.ecology.smoba.qq.com/img/27/335/3019700.png?sign=1752701959-uRKcug-0-7f74dde44e0429e28ee7e23370c1fa8e" alt="弈星">
+        <img src="https://game.gtimg.cn/images/yxzj/img201606/heroimg/197/197-mobileskin-1.jpg" alt="弈星">
         <h2 style="color:cornflowerblue" id="弈星">弈星大王666</h2>
         <span title="弈星">若世有神明，亦会胜他半子！<br></span>
         <span title="弈星">我不知道啊他们几个突然出现在了我的大招里<br><br><br></span>
-        <img src="https://lcmimage.ecology.smoba.qq.com/img/27/803/3053400.png?sign=1752702253-8dZwiV-0-e544e6a98a219bccafe8c0f7232df58b" alt="桑启">
+        <img src="https://ts1.tc.mm.bing.net/th/id/R-C.c0e0f5dccb148483f16c02aebb9d2fcb?rik=sqRos%2btYlcw2MA&riu=http%3a%2f%2fgame.gtimg.cn%2fimages%2fyxzj%2fimg201606%2fheroimg%2f534%2f534-mobileskin-1.jpg&ehk=UBZfITIVxVOXrlA38Y8lyRCD8fPAi1yhvthVqur3mCI%3d&risl=&pid=ImgRaw&r=0" alt="桑启">
         <h2 style="color:green" id="桑启">桑启大王666</h2>
         <span title="桑启">桑启，是不会垂头丧气的！<br></span>
         <span title="桑启">听不懂和我的一闪说去吧<br><br><br></span>
+        <img src="https://game.gtimg.cn/images/yxzj/coming/v2/adjust/image/20190513/b913833580d149aae28c3387c9bdceab.jpg" alt="司马懿">
+        <h2 style="color:rebeccapurple" id="司马懿">司马懿大王666</h2>
+        <span title="司马懿">黑暗无边无际，人类却妄想光明的胜利<br></span>
+        <span title="司马懿">幽默黑色老鼠<br><br><br></span>
+
         <p style="color:aqua">这是一段天蓝色的文字qwq</p>
         <p class="red-text">这段会变红qwq</p>
 
-         <div class="box">
-             <h1 style="color: white">啦啦啦</h1>
-             <p style="color: white">啦啦啦啦</p>
+        <div class="container">
+         <div class="center-box">
+            <h1 style="color: white">啦啦啦</h1>
+            <p style="color: white">啦啦啦啦</p>
          </div>
+        </div>
     </body>
 </html>
